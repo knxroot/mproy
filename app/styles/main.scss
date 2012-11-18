@@ -1,0 +1,76 @@
+@import "compass_twitter_bootstrap";
+
+//http://css3generator.com///
+
+$azulgradiente1:#009EFF;
+$azulgradiente2:#01BDFD;
+$ancho_shadow: 6px;
+$radio_esquina: 5px;
+$label_color:#fff;
+
+/*Estlos header superior*/
+header{
+  width: auto;
+  height: 100px;
+}
+
+.cuadrado_circulos{
+  background: {
+    image: image-url("/images/f_circulos.png");
+    repeat: no-repeat;
+    position: top left;};
+  @include background-size(cover);
+  @include background-clip(padding-box);
+  width: 335px;
+  height: 136px;
+  @include box-shadow(black 0px 0px $ancho_shadow);
+  @include border-bottom-radius($radio_esquina);
+}
+.container_menu{
+	height: 47px;
+}
+.bazul_12{
+	height:12px;
+}
+
+/*Gradiente azul*/
+.g_azul{
+  background: $azulgradiente1;
+  @include background-image(linear-gradient($azulgradiente1, $azulgradiente2));
+  @include filter-gradient($azulgradiente1, $azulgradiente2, 0);
+}
+.right{
+  @include float(right);
+}
+
+/*Formulario Login*/
+.form-signin{
+  @include float(right);
+  padding-top: 28px;
+}
+
+.form-signin>div{
+	margin-right: 5px;
+	margin-left: 5px;
+  @include float(left);
+}
+.form-signin>div>label{
+	@include float(left);
+	margin-right: 25px;
+	color: $label_color;
+    font-weight: bold;
+    font-family: Helvetica;
+    padding-top: 5px;
+}
+
+/* Selector ciudades */
+.boton_menu{
+	margin-top: 5px;
+}
+
+/*Necesidades box*/
+.necesidad_box{
+  background: {
+    image: image-url("/images/dot_background.png");
+    repeat: repeat;};
+}
