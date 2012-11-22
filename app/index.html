@@ -14,28 +14,29 @@
 
         
         <link rel="stylesheet" href="styles/main.css">
+
+
         <script src="scripts/vendor/modernizr.min.js"></script>
+        <script src="scripts/vendor/jquery.min.js"></script> 
+        <script src="scripts/app.js"></script>
     </head>
     <body>
+
     <div>
-      <header class="g_azul">
+      <header id="cabecera" class="g_azul">
         <div class="container">
-            <form class="form-signin">
-              <div>
-                <label for="user">Usuario</label>
-                <input name="user" type="text" class="input-medium">
-              </div>
-              <div>
-                <label for="user">Contraseña</label>
-                <input name="pass" type="password" class="input-medium">
-              </div>
-            </form>
-            <div class="cuadrado_circulos"></div>
+          <form class="form-signin">
+            <div>
+              <label for="user">Usuario</label>
+              <input name="user" type="text" class="input-medium"></div>
+            <div>
+              <label for="user">Contraseña</label>
+              <input name="pass" type="password" class="input-medium"></div>
+          </form>
+          <div class="cuadrado_circulos"></div>
         </div>
       </header>
-      <div class="necesidad_box">
-        <h1>¿Qué Necesitas?</h1>
-      </div>
+
       <div class="container_menu">
         <div class="container">
           <div class="btn-group right boton_menu">
@@ -54,14 +55,295 @@
       <div class="g_azul bazul_12"></div>
     </div>
 
-    <div class="container" style="margin-top:50px">
-        <div class="caja_title"></div>
-        <div class="hero-unit">
-            <h1>algo!</h1>
-            <p>algo</p>
-        </div>
-    </div>
 
+    <div class="container" style="margin-top:20px">
+      <div class="row">
+        <div class="span12 bplomo necesidad_box">
+            <div class="ch">
+              <h1>¿Qué Necesitas?</h1>
+
+              <div class="btn-group right boton_menu select_nec">
+                <button class="btn btn-info btn-large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comida&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                <button class="btn btn-info btn-large dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <!-- links menu -->
+                  <li><a target="_blank" >Cerveza</a></li>
+                  <li><a target="_blank" >Carrete</a></li>
+                </ul>
+              </div>
+
+            </div>
+        </div><!-- /necesidad_box -->
+      </div>
+      <div class="row">
+        <div class="span4">
+        <!--Sidebar content-->
+          <div id="livebox" class="bplomo">
+            <section>
+              <div class="triangulo"></div>
+              <h3 class="g_azul blue_box ch">En este momento</h3>
+              <div id="stream">
+                <!-- TWITT START -->
+                <article class="item comment clearfix">
+                  <div class="icon_area">
+                    <a href="/accounts/50006" class="user_icon" title="biobio">
+                      <img width="50" height="50" src="images/biobio_ico.png" alt="biobio">
+                    </a>
+                  </div>
+                  <p class="content">
+                    <a href="/accounts/50006" class="user_link" title="biobio">biobio</a> [VIDEO] Sismo de poca profundidad se percibe entre las regiones de O'Higgins y de La Araucanía <a ref="http://rbb.cl/24yo">rbb.cl/24yo</a> <br><span class="meta"><abbr class="timeago" title="blablabla" pubdate="">hace 1 minuto</abbr>
+                    </span> 
+                  </p>
+                </article>
+                <!-- TWITT END -->
+                <!-- TWITT START -->
+                <article class="item comment clearfix">
+                  <div class="icon_area">
+                    <a href="/accounts/50006" class="user_icon" title="biobio">
+                      <img width="50" height="50" src="images/biobio_ico.png" alt="biobio">
+                    </a>
+                  </div>
+                  <p class="content">
+                    <a href="/accounts/50006" class="user_link" title="biobio">biobio</a> [ACTUALIZADO] Congestión vehicular tras sismo de Concepción genera colisiones por alcance <a ref="http://rbb.cl/24yr">rbb.cl/24yr</a><br><span class="meta"><abbr class="timeago" title="blablabla" pubdate="">hace 1 minuto</abbr>
+                    </span> 
+                  </p>
+                </article>
+                <!-- TWITT END -->
+                <!-- TWITT START -->
+                <article class="item comment clearfix">
+                  <div class="icon_area">
+                    <a href="/accounts/50006" class="user_icon" title="elmostrador">
+                      <img width="50" height="50" src="images/elmostrador_ico.png" alt="elmostrador">
+                    </a>
+                  </div>
+                  <p class="content">
+                    <a href="/accounts/50006" class="user_link" title="elmostrador">elmostrador</a> Alvear  (DC) destaca aprobación del proyecto que crea los Tribunales Ambientales <a ref="http://elmo.st/wzBb2V">elmo.st/wzBb2V</a><br><span class="meta"><abbr class="timeago" title="blablabla" pubdate="">hace 1 minuto</abbr>
+                    </span> 
+                  </p>
+                </article>
+                <!-- TWITT END -->                
+                <!-- TWITT START -->
+                <article class="item comment clearfix">
+                  <div class="icon_area">
+                    <a href="/accounts/50006" class="user_icon" title="Entretencion">
+                      <img width="50" height="50" src="images/terra_ico.png" alt="Entretencion">
+                    </a>
+                  </div>
+                  <p class="content">
+                    <a href="/accounts/50006" class="user_link" title="Entretencion">Entretencion</a> [MÚSICA] Ex marido de Britney Spears es hospitalizado por problema cardíaco  <a ref="http://bit.ly/zrw8li">bit.ly/zrw8li</a><br><span class="meta"><abbr class="timeago" title="blablabla" pubdate="">hace 1 minuto</abbr>
+                    </span> 
+                  </p>
+                </article>
+                <!-- TWITT END -->        
+                <!-- TWITT START -->
+                <article class="item comment clearfix">
+                  <div class="icon_area">
+                    <a href="/accounts/50006" class="user_icon" title="elmostrador">
+                      <img width="50" height="50" src="images/elmostrador_ico.png" alt="elmostrador">
+                    </a>
+                  </div>
+                  <p class="content">
+                    <a href="/accounts/50006" class="user_link" title="elmostrador">elmostrador</a> Alvear  (DC) destaca aprobación del proyecto que crea los Tribunales Ambientales <a ref="http://elmo.st/wzBb2V">elmo.st/wzBb2V</a><br><span class="meta"><abbr class="timeago" title="blablabla" pubdate="">hace 1 minuto</abbr>
+                    </span> 
+                  </p>
+                </article>
+                <!-- TWITT END -->                
+                <!-- TWITT START -->
+                <article class="item comment clearfix">
+                  <div class="icon_area">
+                    <a href="/accounts/50006" class="user_icon" title="Entretencion">
+                      <img width="50" height="50" src="images/terra_ico.png" alt="Entretencion">
+                    </a>
+                  </div>
+                  <p class="content">
+                    <a href="/accounts/50006" class="user_link" title="Entretencion">Entretencion</a> [MÚSICA] Ex marido de Britney Spears es hospitalizado por problema cardíaco  <a ref="http://bit.ly/zrw8li">bit.ly/zrw8li</a><br><span class="meta"><abbr class="timeago" title="blablabla" pubdate="">hace 1 minuto</abbr>
+                    </span> 
+                  </p>
+                </article>
+                <!-- TWITT END -->                             
+              </div>
+            <section> 
+          </div>
+          
+          <div id="destacadosbox" class="bplomo">
+            <section>
+              <div class="triangulo"></div>
+              <h3 class="g_azul blue_box ch">Destacados</h3>
+                <div id="destacados">
+                  <!-- TWITT START -->
+                  <article class="item comment clearfix">
+                    <div class="icon_area">
+                      <a href="/accounts/50006" class="user_icon" title="TEDx">
+                        <img width="135" height="100" src="images/imagen1.png" alt="TEDx">
+                      </a>
+                    </div>
+                    <div class="content">
+                      <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
+                      <p>
+                        Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
+                      </p>
+                    </div>
+                  </article>
+                  <!-- TWITT END -->
+                  <!-- TWITT START -->
+                  <article class="item comment clearfix">
+                    <div class="icon_area">
+                      <a href="/accounts/50006" class="user_icon" title="TEDx">
+                        <img width="135" height="100" src="images/imagen2.png" alt="TEDx">
+                      </a>
+                    </div>
+                    <div class="content">
+                      <a href="/destacado/rolls" class="user_link" title="Rolls">Cubic Rolls</a>
+                      <p>
+                        Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
+                      </p>
+                    </div>
+                  </article>
+                  <!-- TWITT END -->                             
+                </div>
+            <section>
+          </div>          
+        </div>
+        
+
+        <div class="span8">
+        <!--Body content-->
+          <div class="localdata">            
+            <img src="images/mizo_logo.png" alt="Local Logo" class="local_logo">
+            <div class="relleno_blanco">
+              <div class="services_box">
+                <div class="services_txt_box">
+                 <svg style="enable-background:new 0 0 32 32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="13px" width="13px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+                   <g fill="#666">
+                     <circle cx="20" r="4" cy="20"/>
+                     <path d="m28 8l-3.3-6.6c-1-0.83-1-1.4-2-1.4h-6c-0.89 0-1.6 0.58-1.9 1.4l-3 6.6h-8c-2.2 0-4 1.8-4 4v20h32v-20c0-2.2-2-4-4-4zm-22 8c-1.1 0-2-0.9-2-2s0.9-2 2-2 2 0.9 2 2-0.9 2-2 2zm14 12c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-4 8-8 8z"/>
+                   </g>
+                 </svg>&nbsp;Galería
+                </div>
+                <div class="services_txt_box">
+                 <svg style="enable-background:new 0 0 32 32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="13px" width="13px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+                   <polygon points="22 20 32 12 20 12 16 0 12 12 0 12 9.9 20 6 32 16 24 26 32" fill="#666"/>
+                 </svg>&nbsp;Promoción
+                </div>
+                <div class="services_txt_box">
+                 <svg style="enable-background:new 0 0 20 32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="13px" width="8px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 32">
+                   <path d="m17 2.9c-3.9-3.9-10-3.9-14 0-3.9 3.9-3.9 10 0 14-0.1 0 7 7 7 15 0-8 7.1-15 7.1-15 4-4 4-10 0-14zm-7 11c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-2 4-4 4z" fill="#666"/>
+                 </svg>&nbsp;&nbsp;Ubicación
+                </div>
+              </div>
+              <div class="local_title">
+                <div class="triangulo"></div>
+                <h3 class="g_azul blue_box ch">Local</h3>
+              </div>
+            </div>
+          </div>
+          
+          <section>
+            <article class="local_descripcion">
+              <h4>MIXO sushi & Bar / Información del Local</h4>
+              <img src="images/visa_wifi_nofum_est.png" alt="Visa, Wifi, No fumadores, Estacionamiento" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a magna arcu. Aliquam sit amet egestas magna. Morbi ornare interdum sapien, ut sagittis nisl lobortis non. Sed posuere magna id tellus eleifend ultrices. Pellentesque sit amet congue nulla. Aliquam sit amet felis ut magna tempor tempus id vel ante. Maecenas aliquet nisi eget enim gravida non posuere ante ullamcorper.
+
+                Aliquam vitae bibendum sapien. Morbi feugiat purus sed lorem congue laoreet. Cras fermentum nibh vel neque sagittis varius. In hac habitasse platea dictumst. Curabitur eget justo diam. Etiam vestibulum fringilla ante non ornare. Fusce ut arcu dolor, dictum commodo arcu. Nunc mattis ultrices ipsum, eu pellentesque nulla dictum in. Integer elit ipsum, viverra quis gravida a, imperdiet imperdiet justo.
+
+                Suspendisse vitae odio id ligula placerat porta in a sem. Curabitur at tellus et justo rutrum tincidunt nec sit amet arcu. Integer diam mauris, luctus sed tincidunt vitae, scelerisque quis nisi. In tellus tellus, consectetur quis convallis nec, eleifend ac sapien. Nullam in velit nec mi ullamcorper feugiat. Donec venenatis felis sed nibh scelerisque ut ullamcorper massa gravida. Etiam venenatis orci neque. Praesent imperdiet condimentum nisi eget porttitor. Pellentesque dignissim pretium dignissim.
+
+                Proin sit amet cursus velit. Suspendisse potenti. Nam pretium, lorem ut hendrerit eleifend, eros turpis bibendum risus, id ornare urna purus non libero. Donec facilisis tincidunt sem, nec elementum nibh rutrum ut. Sed est odio, interdum ut pellentesque eget, mattis at felis. In sed suscipit leo. Pellentesque vitae ligula leo, mollis sagittis felis. Nam mollis luctus ante, eget adipiscing diam hendrerit eu. Nam magna tortor, gravida ac bibendum eget, adipiscing sit amet nibh. Quisque id odio et justo auctor aliquet in imperdiet velit. Vivamus et diam et odio euismod mollis dapibus eget leo. Integer interdum venenatis consectetur. In tempus iaculis eleifend. Aenean enim purus, fringilla ac scelerisque in, interdum non nunc. Integer suscipit felis id eros ultricies rhoncus sagittis lorem euismod.
+              </p>
+            </article>
+<div class="row-fluid">
+  <div class="span12">
+            <div class="row-fluid">
+                <ul class="thumbnails">
+
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+
+                  <li class="span2" style="margin-left: -2px;">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                  <li class="span2">
+                    <a class="thumbnail" data-toggle="modal" href="#myThumbnailModal">
+                      <img src="http://placehold.it/75x75" alt="http://placehold.it/800x600" />
+                    </a>
+                  </li>
+                </ul>
+            </div>
+  </div>
+</div>
+
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div id="footer" class="span12 ch"><ul class="menu_footer">
+          <li><a href="acercade.html">Acerca de</a></li>
+          <li><a href="desarrolladores.html">Desarrolladores</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="condiciones.html">Condiciones</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>          
+        </ul>
+
+        </div>
+      </div>
+      </div>
+
+<div class="modal fade" id="myThumbnailModal" style="display:none;padding:5px 5px 0 5px;">
+    <img src="" width="600" height="400" alt="" title="" />
+</div>    
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -96,9 +378,11 @@
     <script src="scripts/vendor/bootstrap/bootstrap-collapse.js"></script>
     <script src="scripts/vendor/bootstrap/bootstrap-tab.js"></script>
     <!-- endbuild -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
     <!-- build:js scripts/amd-app.js -->
     <script data-main="scripts/main" src="scripts/vendor/require.js"></script>
     <!-- endbuild -->
+
 </body>
 </html>

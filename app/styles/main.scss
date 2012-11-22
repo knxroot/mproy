@@ -1,18 +1,24 @@
 @import "compass_twitter_bootstrap";
 
-//http://css3generator.com///
+/* http://css3generator.com
+http://compass-recipes.moox.fr */
 
 $azulgradiente1:#009EFF;
 $azulgradiente2:#01BDFD;
 $ancho_shadow: 6px;
 $radio_esquina: 5px;
 $label_color:#fff;
+$general_text_color: #666;
 
+body{
+  color: $general_text_color;
+}
 /*Estlos header superior*/
 header{
   width: auto;
   height: 100px;
 }
+
 
 .cuadrado_circulos{
   background: {
@@ -25,6 +31,7 @@ header{
   height: 136px;
   @include box-shadow(black 0px 0px $ancho_shadow);
   @include border-bottom-radius($radio_esquina);
+
 }
 .container_menu{
 	height: 47px;
@@ -73,4 +80,312 @@ header{
   background: {
     image: image-url("/images/dot_background.png");
     repeat: repeat;};
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  position: relative;
 }
+.necesidad_box select{
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+
+.select_nec{
+  margin-left: 75px;
+}
+
+
+.ch{
+@include display-box;
+@include box-orient(horizontal);
+@include box-pack(center);
+@include box-align(center);
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.clearfix {
+  display: inline-block;
+}
+
+@import "recipes/shape";
+.triangulo
+{
+  @include triangle(bottom,1em, half, #fff);
+  position: absolute;
+  margin-left: 18px;
+}
+
+
+/* .g_azul */
+.blue_box {
+  color: #fff;
+  padding: 0.3em;
+
+}
+
+.bplomo{
+  border: 2px solid #eee;
+}
+
+#livebox{
+  //height: 380px;
+ //display: none;
+}
+
+
+/* Estilos stream estados */
+
+
+#stream, #destacados{
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background-color: #fff;
+  color: #666;
+}
+
+.fixed #stream, .fixed #destacados {
+  display: none !important;
+}
+
+#stream {
+  article {
+    border: 1px solid #f4f4f4;
+  }
+  .item {
+    clear: both;
+    padding: 7px 0;
+    position: relative;
+    width: 100%;
+    .icon_area {
+      width: 32px;
+      height: 32px;
+      float: left;
+      margin-left: 2px;
+    }
+    .content {
+      margin-left: 40px;
+      margin-right: 5px;
+      font-size: 12px;
+      line-height: 16px;
+      z-index: 0;
+      position: relative;
+      background-color: transparent;
+      word-wrap: break-word;
+      a {
+        color: #2A8FBD;
+        border-bottom: 1px dotted #666666;
+        &:hover {
+          color: #3987cc;
+          border-bottom-color: #3987cc;
+        }
+        &.user_link {
+          font-weight: bold;
+          border: none;
+          color: #44444e;
+          display: inline-block;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .meta {
+        font-size: 11px;
+        font-style: italic;
+        color: #737373;
+        display: inline;
+        .timeago{
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+/* Estilso stream Destacados */
+
+#destacados {
+  article {
+    border: 1px solid #f4f4f4;
+  }
+  .item {
+    clear: both;
+    padding: 7px 0;
+    position: relative;
+    width: 100%;
+    .icon_area {
+      width: 148px;
+      height: 100px;
+      float: left;
+      a>img{
+        border: 3px solid #cacbcd;
+      }
+    }
+    .content {
+      margin-left: 35px;
+      margin-right: 20px;
+      font-size: 12px;
+      line-height: 16px;
+      z-index: 0;
+      position: relative;
+      background-color: transparent;
+      word-wrap: break-word;
+      a {
+        color: #aaa;
+        border-bottom: 1px dotted #666666;
+        &:hover {
+          color: #3987cc;
+          border-bottom-color: #3987cc;
+        }
+        &.user_link {
+          font-weight: bold;
+          border: none;
+          color: #3987cc;
+          display: inline-block;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      p{
+        line-height: 1.2em;
+        text-align: justify;
+      }
+      .meta {
+        font-size: 11px;
+        font-style: italic;
+        color: #737373;
+        .timeago{
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+/*Estilos contenido centra l*/
+
+
+
+
+$ancho_local_title: 312px;
+.localdata {
+  background-color: #fff;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  height: 405px;
+  background: {
+    image: image-url("/images/fondo_local.png");
+    repeat: no-repeat;
+    position: top left;};
+  @include background-size(cover);
+  @include background-clip(padding-box);
+
+  div,img{
+    float: left;
+    display: block;
+  }
+  .services_box{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    background-color: #fff;
+    .services_txt_box{
+      float: none;
+      color: #737373;
+      text-align: left;
+      letter-spacing: normal;
+      font-weight: bold;
+      font-size: 11px;
+      line-height: 16px;
+      word-wrap: break-word;
+      a{
+        cursor: auto;
+      }
+    }
+  }
+  img{
+    border-style: solid;
+    border-color: #fff;
+    border-top-width: 7px;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    margin-left: 96px;;
+    bottom: 0px;
+    position: absolute;
+    z-index: 99;
+  }
+  .relleno_blanco{
+    width: 100%;
+    background-color: #fff;
+    padding-top:7px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;  
+    h3{
+      margin: 0;
+    }
+    .local_title{
+      float: right;
+      width: 313px;
+
+    }
+  }
+}
+
+#footer{
+    background-color: #dedede;
+    padding: 5px;
+}
+.menu_footer{
+  @include delimited-list("/");
+  @include inline-list;
+  @include no-bullets;
+  @include horizontal-list(0px, left);
+  font-size: 0.9em;
+  li{
+    a{
+      margin-left: 5px;
+      margin-right: 5px;
+      color: $general_text_color;
+      &:hover {
+        color: #3987cc;
+      }
+    }
+  }
+}
+
+
+.local_descripcion{
+  width: 100%;
+  margin-top: 20px;
+  h4 {
+    font-weight: bold;
+    border: none;
+    color: #3987cc;
+    float: left;
+    text-align: left;
+    @include force-wrap;
+  }
+  img{
+    float: right;
+  }
+  p{
+    @include force-wrap;
+    @include clearfix;
+    display: inline-block;
+    text-align: justify;
+  }
+}
+
