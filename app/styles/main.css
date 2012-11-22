@@ -1,0 +1,63 @@
+/*
+Syntax error: Undefined mixin 'background-image'.
+        on line 42 of ./main.scss, in `background-image'
+        from line 42 of ./main.scss
+
+37: }
+38: 
+39: /*Gradiente azul*/
+40: .g_azul{
+41:   background: $azulgradiente1;
+42:   @include background-image(linear-gradient($azulgradiente1, $azulgradiente2));
+43:   @include filter-gradient($azulgradiente1, $azulgradiente2, 0);
+44: }
+45: .right{
+46:   @include float(right);
+47: }
+
+Backtrace:
+./main.scss:42:in `background-image'
+./main.scss:42
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:249:in `visit_mixin'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:340:in `update_stylesheet'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `each'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/usr/local/share/gems/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:298:in `block in watch'
+/usr/local/share/gems/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
+/usr/local/share/gems/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
+/usr/local/share/gems/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
+/usr/local/share/gems/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
+/usr/local/share/gems/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
+/usr/local/share/gems/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'background-image'.\A         on line 42 of ./main.scss, in `background-image'\A         from line 42 of ./main.scss\A \A 37: }\A 38: \A 39: /*Gradiente azul*/\A 40: .g_azul{\A 41:   background: $azulgradiente1;\A 42:   @include background-image(linear-gradient($azulgradiente1, $azulgradiente2));\A 43:   @include filter-gradient($azulgradiente1, $azulgradiente2, 0);\A 44: }\A 45: .right{\A 46:   @include float(right);\A 47: }"; }

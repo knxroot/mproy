@@ -1,0 +1,29 @@
+line 160 column 13 - Warning: missing </section>
+line 77 column 13 - Warning: missing </section>
+line 198 column 13 - Warning: missing </section>
+line 163 column 13 - Warning: missing </section>
+line 205 column 12 - Error: <svg> is not recognized!
+line 205 column 12 - Warning: discarding unexpected <svg>
+line 206 column 14 - Error: <g> is not recognized!
+line 206 column 14 - Warning: discarding unexpected <g>
+line 207 column 16 - Error: <circle> is not recognized!
+line 207 column 16 - Warning: discarding unexpected <circle>
+line 208 column 16 - Error: <path> is not recognized!
+line 208 column 16 - Warning: discarding unexpected <path>
+line 209 column 14 - Warning: discarding unexpected </g>
+line 210 column 12 - Warning: discarding unexpected </svg>
+line 213 column 12 - Error: <svg> is not recognized!
+line 213 column 12 - Warning: discarding unexpected <svg>
+line 214 column 14 - Error: <polygon> is not recognized!
+33 warnings, 8 errors were found! Not all warnings/errors were shown.
+
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
+
+About this fork of Tidy: http://w3c.github.com/tidy-html5/
+Bug reports and comments: https://github.com/w3c/tidy-html5/issues/
+Or send questions and comments to html-tidy@w3.org
+Latest HTML specification: http://dev.w3.org/html5/spec-author-view/
+HTML language reference: http://dev.w3.org/html5/markup/
+Validate your HTML5 documents: http://validator.w3.org/nu/
+Lobby your company to join the W3C: http://www.w3.org/Consortium

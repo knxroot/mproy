@@ -1,0 +1,1012 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"a",
+				"azulgradiente1"
+			],
+			[
+				"azul",
+				"azulgradiente1"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"ser",
+				"services_box"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"div",
+				"DIV	Tag"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"IP",
+				"IP_LOCAL"
+			],
+			[
+				"get",
+				"getNombre"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"na",
+				"naranja_nice"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"fle",
+				"flecha"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"tabl",
+				"table-row"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"st",
+				"list-style"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"f",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nZenCoding:\n---------\n\n  This Zen Coding plugin is outdated and will never receive\n  any updates in future. In two weeks the repo will be unpublished.\n  \n  Consider switching to Emmet -- a re-branded Zen Coding project \n  packed with new awesome features:\n  \n  * Dynamic CSS abbreviations, automatic vendor prefixes and gradient generator.\n  * Better Tab key handler.\n  * \"Lorem Ipsum\" generator.\n  * Implicit tag names.\n  * JavaScript extensions support.\n  * New ^ operator.\n  * Various fixes and improvements.\n  \n  The new plugin is available in Package Control: just run \n  \"Install Package\" command and install \"Emmet\" plugin. Please remove \n  or disable current Zen Coding plugin in order to make things work right. \n  \n  Extensive documentation about all Emmet features is available at http://docs.emmet.io\n  \nul.ninjacode>li*5\n",
+			"settings":
+			{
+				"buffer_size": 884,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/knx/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\n<div class=\"modal hide fade\" id=\"modal_ss\" style=\"width:800px;margin-left:50%; left:-400px;\">\n  <div class=\"modal-body\">\n    <img src=\"\">\n  </div>\n  <div class=\"modal-footer\">\n    <a href=\"#\" class=\"btn\" data-dismiss=\"modal\" aria-hidden=\"true\">Fechar</a>\n  </div>\n</div>",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/dropkick.js",
+			"settings":
+			{
+				"buffer_size": 10884,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/dropkick.css",
+			"settings":
+			{
+				"buffer_size": 6373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "              <select name=\"select_nec\" class=\"select_nec\">\n                <option>Baby Bear...</option>\n                <option>Your profile</option>\n                <option>Your account</option>\n                <option>Notifications</option>\n                <option>Sign Out</option>\n              </select>",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/compass_twitter_bootstrap/_buttons.scss",
+			"settings":
+			{
+				"buffer_size": 4874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 21401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@import \"compass_twitter_bootstrap\";\n\n/* http://css3generator.com\nhttp://compass-recipes.moox.fr */\n\n$azulgradiente1:#009EFF;\n$azulgradiente2:#01BDFD;\n$ancho_shadow: 6px;\n$radio_esquina: 5px;\n$label_color:#fff;\n$general_text_color: #666;\n\nbody{\n  color: $general_text_color;\n}\n/*Estlos header superior*/\nheader{\n  width: auto;\n  height: 100px;\n}\n\n\n.cuadrado_circulos{\n  background: {\n    image: image-url(\"/images/f_circulos.png\");\n    repeat: no-repeat;\n    position: top left;};\n  @include background-size(cover);\n  @include background-clip(padding-box);\n  width: 335px;\n  height: 136px;\n  @include box-shadow(black 0px 0px $ancho_shadow);\n  @include border-bottom-radius($radio_esquina);\n\n}\n.container_menu{\n	height: 47px;\n}\n.bazul_12{\n	height:12px;\n}\n\n/*Gradiente azul*/\n.g_azul{\n  background: $azulgradiente1;\n  @include background-image(linear-gradient($azulgradiente1, $azulgradiente2));\n  @include filter-gradient($azulgradiente1, $azulgradiente2, 0);\n}\n.right{\n  @include float(right);\n}\n\n/*Formulario Login*/\n.form-signin{\n  @include float(right);\n  padding-top: 28px;\n}\n\n.form-signin>div{\n	margin-right: 5px;\n	margin-left: 5px;\n  @include float(left);\n}\n.form-signin>div>label{\n	@include float(left);\n	margin-right: 25px;\n	color: $label_color;\n    font-weight: bold;\n    font-family: Helvetica;\n    padding-top: 5px;\n}\n\n/* Selector ciudades */\n.boton_menu{\n	margin-top: 5px;\n}\n\n/*Necesidades box*/\n.necesidad_box{\n  background: {\n    image: image-url(\"/images/dot_background.png\");\n    repeat: repeat;};\n  padding-top: 1em;\n  padding-bottom: 1em;\n  margin-bottom: 2em;\n  position: relative;\n}\n.necesidad_box select{\n  margin-top: 1em;\n  margin-left: 2em;\n}\n\n\n.select_nec{\n  margin-left: 75px;\n}\n\n\n.ch{\n@include display-box;\n@include box-orient(horizontal);\n@include box-pack(center);\n@include box-align(center);\n}\n\n.clearfix:after {\n  content: \".\";\n  display: block;\n  clear: both;\n  visibility: hidden;\n  line-height: 0;\n  height: 0;\n}\n \n.clearfix {\n  display: inline-block;\n}\n\n@import \"recipes/shape\";\n.triangulo\n{\n  @include triangle(bottom,1em, half, #fff);\n  position: absolute;\n  margin-left: 18px;\n}\n\n\n/* .g_azul */\n.blue_box {\n  color: #fff;\n  padding: 0.3em;\n\n}\n\n.bplomo{\n  border: 2px solid #eee;\n}\n\n#livebox{\n  //height: 380px;\n //display: none;\n}\n\n\n/* Estilos stream estados */\n\n\n#stream, #destacados{\n  position: relative;\n  overflow: hidden;\n  margin: 0;\n  background-color: #fff;\n  color: #666;\n}\n\n.fixed #stream, .fixed #destacados {\n  display: none !important;\n}\n\n#stream {\n  article {\n    border: 1px solid #f4f4f4;\n  }\n  .item {\n    clear: both;\n    padding: 7px 0;\n    position: relative;\n    width: 100%;\n    .icon_area {\n      width: 32px;\n      height: 32px;\n      float: left;\n      margin-left: 2px;\n    }\n    .content {\n      margin-left: 40px;\n      margin-right: 5px;\n      font-size: 12px;\n      line-height: 16px;\n      z-index: 0;\n      position: relative;\n      background-color: transparent;\n      word-wrap: break-word;\n      a {\n        color: #2A8FBD;\n        border-bottom: 1px dotted #666666;\n        &:hover {\n          color: #3987cc;\n          border-bottom-color: #3987cc;\n        }\n        &.user_link {\n          font-weight: bold;\n          border: none;\n          color: #44444e;\n          display: inline-block;\n          &:hover {\n            text-decoration: underline;\n          }\n        }\n      }\n      .meta {\n        font-size: 11px;\n        font-style: italic;\n        color: #737373;\n        display: inline;\n        .timeago{\n          display: inline-block;\n        }\n      }\n    }\n  }\n}\n\n/* Estilso stream Destacados */\n\n#destacados {\n  article {\n    border: 1px solid #f4f4f4;\n  }\n  .item {\n    clear: both;\n    padding: 7px 0;\n    position: relative;\n    width: 100%;\n    .icon_area {\n      width: 148px;\n      height: 100px;\n      float: left;\n      a>img{\n        border: 3px solid #cacbcd;\n      }\n    }\n    .content {\n      margin-left: 35px;\n      margin-right: 20px;\n      font-size: 12px;\n      line-height: 16px;\n      z-index: 0;\n      position: relative;\n      background-color: transparent;\n      word-wrap: break-word;\n      a {\n        color: #aaa;\n        border-bottom: 1px dotted #666666;\n        &:hover {\n          color: #3987cc;\n          border-bottom-color: #3987cc;\n        }\n        &.user_link {\n          font-weight: bold;\n          border: none;\n          color: #3987cc;\n          display: inline-block;\n          &:hover {\n            text-decoration: underline;\n          }\n        }\n      }\n      p{\n        line-height: 1.2em;\n        text-align: justify;s\n      }\n      .meta {\n        font-size: 11px;\n        font-style: italic;\n        color: #737373;\n        .timeago{\n          display: inline-block;\n        }\n      }\n    }\n  }\n}\n\n/*Estilos contenido centra l*/\n\n\n\n\n$ancho_local_title: 312px;\n.localdata {\n  background-color: #fff;\n  display: inline-block;\n  width: 100%;\n  position: relative;\n  height: 405px;\n  background: {\n    image: image-url(\"/images/fondo_local.png\");\n    repeat: no-repeat;\n    position: top left;};\n  @include background-size(cover);\n  @include background-clip(padding-box);\n\n  div,img{\n    float: left;\n    display: block;\n  }\n  .services_box{\n    position: absolute;\n    bottom: 0px;\n    left: 0px;\n    width: 100px;\n    background-color: #fff;\n    .services_txt_box{\n      float: none;\n      color: #737373;\n      text-align: left;\n      letter-spacing: normal;\n      font-weight: bold;\n      font-size: 11px;\n      line-height: 16px;\n      word-wrap: break-word;\n      a{\n        cursor: auto;\n      }\n    }\n  }\n  img{\n    border-style: solid;\n    border-color: #fff;\n    border-top-width: 7px;\n    border-left-width: 7px;\n    border-right-width: 7px;\n    margin-left: 96px;;\n    bottom: 0px;\n    position: absolute;\n    z-index: 99;\n  }\n  .relleno_blanco{\n    width: 100%;\n    background-color: #fff;\n    padding-top:7px;\n    position: absolute;\n    bottom: 0px;\n    right: 0px;  \n    h3{\n      margin: 0;\n    }\n    .local_title{\n      float: right;\n      width: 313px;\n\n    }\n  }\n}\n\n#footer{\n    background-color: #dedede;\n    padding: 5px;\n}\n.menu_footer{\n  @include delimited-list(\"/\");\n  @include inline-list;\n  @include no-bullets;\n  @include horizontal-list(0px, left);\n  font-size: 0.9em;\n  li{\n    a{\n      margin-left: 5px;\n      margin-right: 5px;\n      color: $general_text_color;\n      &:hover {\n        color: #3987cc;\n      }\n    }\n  }\n}\n\n\n.local_descripcion{\n  width: 100%;\n  margin-top: 20px;\n  h4 {\n    font-weight: bold;\n    border: none;\n    color: #3987cc;\n    float: left;\n    text-align: left;\n    @include force-wrap;\n  }\n  img{\n    float: right;\n  }\n  p{\n    @include force-wrap;\n    @include clearfix;\n    display: inline-block;\n    text-align: justify;\n  }\n}\n\n",
+			"file": "app/styles/main.scss",
+			"file_size": 6728,
+			"file_write_time": 1353614928000000,
+			"settings":
+			{
+				"buffer_size": 6729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/compass_twitter_bootstrap/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 9664,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/CHROME.sublime-build",
+	"command_palette":
+	{
+		"height": 272.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"con",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Disable Package"
+			],
+			[
+				"sni",
+				"Snippet: img"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 237.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/knx/Downloads/a.html",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_layouts.scss",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_grid.scss",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_scaffolding.scss",
+		"/home/knx/dev/mproy/app/styles/_compass_twitter_bootstrap.scss",
+		"/home/knx/tmp/untitled.html",
+		"/home/knx/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/knx/dev/mproy/mproy.sublime-project",
+		"/home/knx/dev/mproy/app/scripts/main.js",
+		"/home/knx/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/knx/dev/mproy/.editorconfig",
+		"/home/knx/dev/mproy/app/index.html",
+		"/home/knx/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/knx/.config/sublime-text-2/Packages/Tag/Tag Package.sublime-settings",
+		"/home/knx/.config/sublime-text-2/Packages/User/Tag Package.sublime-settings",
+		"/home/knx/dev/mproy/app/styles/recipes/shape/polygon/_triangle.scss",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_variables.scss",
+		"/home/knx/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_font-awesome.scss",
+		"/home/knx/dev/mproy/app/styles/recipes/_media-queries.scss",
+		"/home/knx/dev/dotfiles/.scripts/youtubetodvd_fromlist.sh",
+		"/home/knx/dev/mproy/app/scripts/dropkick.js",
+		"/home/knx/dev/mproy/app/scripts/app.js",
+		"/home/knx/dev/mproy/app/styles/dropkick.css",
+		"/home/knx/dev/mproy/app/styles/main.scss",
+		"/home/knx/dev/mproy/dist/styles/main.scss",
+		"/home/knx/dev/mproy/dist/index.html",
+		"/home/knx/dev/.compass.rb",
+		"/home/knx/Peliculas/youtubetodvd.sh",
+		"/home/knx/dev/app/styles/main.scss",
+		"/home/knx/dev/app/index.html",
+		"/home/knx/dev/Gruntfile.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/calcularMultiplicador.sh",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/notas_parciales_P2.txt",
+		"/home/knx/Downloads/BORRAME/Juego de la vida/index.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/w3c-validator.py",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/calcularNota.py",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/resultados_totales.txt",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/factorial/include/calculador.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/factorial/include/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/lecture0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/templates/footer.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/lecture1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/templates/header.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/lectures.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/includes/helpers.php",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/dist/installheartbeat.sh",
+		"/var/www/html/factorial/include/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/cuentas_alumnos_creadas",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/login4.php",
+		"/var/www/html/factorial/include/calculador.php",
+		"/var/www/html/factorial/include/server.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/1/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/IN510-7X_JuegoDeLaVida/solucion/juego.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPBasico/registrar.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPBasico/google.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPBasico/server.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/index.html",
+		"/var/www/html/EjemplosPHPBasico/registrar.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/js/Juego.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/css/estilo.css",
+		"/home/knx/as.sh",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/src/persona_adv.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/js/Funcionlidad_Juego.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/parametros",
+		"/usr/bin/w3c-validator.py",
+		"/home/knx/Documents/tmp/CREANDOCUENTAS",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/froshims1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/froshims0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/register0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/register1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/login1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/login2.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/0/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/0/lecture0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/home.php",
+		"/home/knx/Documents/tmp/test.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/include/installheartbeat.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/haresources",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/harc",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/authkeys",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/ha.cf",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/Implementando_Java_Remote_Method_Invocation/dist/upserver.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/Implementando_Java_Remote_Method_Invocation/dist/upclient.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/installheartbeat.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/biblioteca/SIS702L/BIBLIOGRAFÍA",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/Client.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/Hello.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/Server.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/upserver.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/upclient.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/biblioteca/SIS702L/8-DEFINICION_DE_INTERFACES/Tarea 5: Callback-Corba.txt",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/upclient.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/upserver.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/Hello.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/Client.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/Server.java",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona_adv.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona_adv.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/myrefs.bib",
+		"/home/knx/Downloads/calculadora_v2.0/calculadora.js",
+		"/home/knx/Downloads/calculadora_v2.0/calculadora.html",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/installheartbeat",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/revisar.txt",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/install_java_alternatives.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/bp",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/experimentos/javarmi/Server.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/experimentos/javarmi/Hello.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/.tmp1.txt",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/index.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/index2.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona_module.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/index.html~",
+		"/home/knx/Documents/servel/RAW.txt",
+		"/home/knx/Documents/servel/URLS.txt",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/PHP/persona.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Diapo_JS1/index.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/INACAP/index.html",
+		"/home/knx/Documents/tem/src/parpadear.html",
+		"/home/knx/Documents/tem/src/form1.html",
+		"/home/knx/Documents/tem/src/popup.html",
+		"/home/knx/Documents/tem/src/javascript.html",
+		"/home/knx/Documents/tem/src/form7.html",
+		"/home/knx/Documents/tem/src/procesar.php",
+		"/home/knx/Documents/tem/src/form6.html"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ss",
+			"menu_footer",
+			"btnInfoBackground",
+			"red",
+			"baby_bear",
+			"dot",
+			"h1",
+			"wrap",
+			"#3987CC",
+			"services_txt_box",
+			"border",
+			"autocomple",
+			"50006",
+			"accounts",
+			"class",
+			"container",
+			"\" ",
+			"html",
+			".meta",
+			"timeago",
+			"chat",
+			"icon_area",
+			";\n",
+			"navbarVerticalAlign",
+			"alig",
+			"center",
+			"40px",
+			"ima",
+			"box",
+			"$verde_nice",
+			"",
+			"",
+			"/usr/java/default/",
+			"visual-hack-left",
+			"rgb",
+			"body",
+			"main-image",
+			"ir",
+			"bloque_icologin",
+			"red",
+			"Login",
+			"FEO",
+			";\n",
+			"width",
+			"#C74C38",
+			"#118898",
+			"http://heathlife.co.uk/",
+			"width",
+			"haches",
+			"asss",
+			"html5: ",
+			": ",
+			" ",
+			"html5:\nhtml5",
+			":\n",
+			"doctype"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"stream",
+			"",
+			"/usr/java/latest/",
+			"container_principal",
+			"$naranja_nice",
+			"$verde_nice",
+			"./"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/knx/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/dropkick.js",
+					"settings":
+					{
+						"buffer_size": 10884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10884,
+								10884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5587.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/styles/dropkick.css",
+					"settings":
+					{
+						"buffer_size": 6373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1282,
+								1282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 391.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/styles/compass_twitter_bootstrap/_buttons.scss",
+					"settings":
+					{
+						"buffer_size": 4874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3731,
+								3731
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1764.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 21401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2200,
+								2200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"zen_abbrev_cache":
+							[
+								"ul#menu_footer>li*5",
+								"<ul id=\"menu_footer\">\n	<li>${1001}</li>\n	<li>${1002}</li>\n	<li>${1003}</li>\n	<li>${1004}</li>\n	<li>${1005:$SELECTION}</li>\n</ul>"
+							]
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/styles/main.scss",
+					"settings":
+					{
+						"buffer_size": 6729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4073,
+								4073
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3262.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/styles/compass_twitter_bootstrap/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 9664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2612,
+								2612
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 795.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 160.0
+	},
+	"output.exec":
+	{
+		"height": 134.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app/styles/main.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 333.0,
+	"status_bar_visible": false
+}
