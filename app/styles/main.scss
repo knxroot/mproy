@@ -13,7 +13,7 @@ $general_text_color: #666;
 body{
   color: $general_text_color;
 }
-/*Estlos header superior*/
+/*Estlos header superior */
 header{
   width: auto;
   height: 100px;
@@ -22,7 +22,7 @@ header{
 
 .cuadrado_circulos{
   background: {
-    image: image-url("/images/f_circulos.png");
+    image: url("../images/f_circulos.png");
     repeat: no-repeat;
     position: top left;};
   @include background-size(cover);
@@ -35,6 +35,14 @@ header{
 }
 .container_menu{
 	height: 47px;
+  .container{
+    position: relative;
+    .right{
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  }
 }
 .bazul_12{
 	height:12px;
@@ -78,7 +86,7 @@ header{
 /*Necesidades box*/
 .necesidad_box{
   background: {
-    image: image-url("/images/dot_background.png");
+    image: url("../images/dot_background.png");
     repeat: repeat;};
   padding-top: 1em;
   padding-bottom: 1em;
@@ -285,7 +293,7 @@ $ancho_local_title: 312px;
   position: relative;
   height: 405px;
   background: {
-    image: image-url("/images/fondo_local.png");
+    image: url("../images/fondo_local.png");
     repeat: no-repeat;
     position: top left;};
   @include background-size(cover);

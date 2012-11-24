@@ -2,9 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/home/knx/dev/mproy",
-			"file_exclude_patterns": ["*~", ".*", "mproy.sublime*"],
-			"folder_exclude_patterns": [".sass-cache", "temp"]
+			"path": "/home/knx/dev/test2"
 		}
 	]
 }
